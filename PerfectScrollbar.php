@@ -42,7 +42,7 @@ class PerfectScrollbar extends \yii\base\Widget {
 //            $options.=$k.':'.  $v;
         }
         $js=<<<EOD
-       $("#$this->id").perfectScrollbar({$options});
+       $("#$this->id").perfectScrollbar({{$options}});
 EOD;
         $this->view->registerJs($js);
     }
