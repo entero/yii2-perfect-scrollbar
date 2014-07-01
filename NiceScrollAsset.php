@@ -10,11 +10,12 @@ class PerfectScrollbarAsset extends AssetBundle{
 	public $sourcePath = '@perfectscrollbar/assets/';
 
 	public $js = [
-		"js/haha.js",
+		"js/perfect-scrollbar.js",
+                "js/jquery.mousewheel.js",
 	];
 
 	public $css = [
-		"css/haha.css",
+		"css/perfect-scrollbar",
 	];
 
 //	public $publishOptions = [
