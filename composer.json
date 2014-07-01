@@ -1,0 +1,18 @@
+{
+	"name": "guzuomuse/yii2-perfect-scrollbar",
+	"description": "yii2-perfert-scrollbar",
+	"type": "yii2-extension",
+	"keywords": "["yii2","extension"]",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "孤坐暮色",
+			"email": "czh51success@163.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"guzuomuse\\perfectscrollbar\\": ""
+		}
+	}
+}
