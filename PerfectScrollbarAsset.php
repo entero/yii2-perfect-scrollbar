@@ -15,7 +15,7 @@ class PerfectScrollbarAsset extends AssetBundle{
 	];
 
 	public $css = [
-		"css/perfect-scrollbar",
+		"css/perfect-scrollbar.css",
 	];
 
 //	public $publishOptions = [
