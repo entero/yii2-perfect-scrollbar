@@ -1,18 +1,14 @@
 {
-	"name": "guzuomuse/yii2-perfect-scrollbar",
-	"description": "yii2-perfert-scrollbar",
-	"type": "yii2-extension",
-	"keywords": ["yii2","extension"],
-	"license": "Apache-2.0",
-	"authors": [
-		{
-			"name": "孤坐暮色",
-			"email": "czh51success@163.com"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"guzuomuse\\perfectscrollbar\\": ""
-		}
-	}
+  "name": "enterosoft/yii2-perfect-scrollbar",
+  "type": "yii2-extension",
+  "description": "perfect scrollbar Asset Bundle for yii2",
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "bower-asset/perfect-scrollbar": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "entero\\perfectScrollbar\\": "src"
+    }
+  }
 }
