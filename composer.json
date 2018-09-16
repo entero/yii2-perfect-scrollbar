@@ -4,7 +4,7 @@
   "description": "perfect scrollbar Asset Bundle for yii2",
   "require": {
     "yiisoft/yii2": "~2.0.0",
-    "bower-asset/perfect-scrollbar": "1.4.0"
+    "npm-asset/perfect-scrollbar": "1.4.0"
   },
   "autoload": {
     "psr-4": {
